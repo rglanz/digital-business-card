@@ -29,7 +29,10 @@ body {
 /* Intro Section */
 .intro {
     width: 317px;
-    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     background: var(--color-light);
@@ -223,7 +226,10 @@ a {
 .footer {
     width: 317px;
     height: 64px;
-    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     align-items: center;
     justify-content: center;
