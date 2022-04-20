@@ -8,17 +8,17 @@ function Intro() {
             <img src={introImage} alt="" className="intro__img" />
             <h1 className="intro__name">Ryan Glanz</h1>
             <h4 className="intro__title">Frontend Developer</h4>
-            <a href="ryanglanz.com" className="intro__website">ryanglanz.com</a>
+            <a href="https://www.ryanglanz.com" target="_blank" className="intro__website">ryanglanz.com</a>
             <div className="intro__btn-container">
-                <button className="intro__btn" id="intro__btn-email">
+                <a href="@mailto:glanzrm@gmail.com" target="_blank"><button className="intro__btn" id="intro__btn-email">
                     <FaEnvelope className="intro__btn-icon"/>
                     <p className="intro__btn-text">Email</p>
-                </button>
+                </button></a>
                 
-                <button className="intro__btn" id="intro__btn-linkedin">
+                <a href="https://www.linkedin.com/in/ryan-glanz-172974118/" target="_blank"><button className="intro__btn" id="intro__btn-linkedin">
                     <FaLinkedin className="intro__btn-icon"/>
                     <p className="intro__btn-text">LinkedIn</p>
-                </button>
+                </button></a>
             </div>
             
         </div>
