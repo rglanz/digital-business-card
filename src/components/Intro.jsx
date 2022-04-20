@@ -9,19 +9,18 @@ function Intro() {
             <h1 className="intro__name">Ryan Glanz</h1>
             <h4 className="intro__title">Frontend Developer</h4>
             <a href="ryanglanz.com" className="intro__website">ryanglanz.com</a>
-            <button className="intro__email-btn">
-                <span className="intro__email-span">
-                    <FaEnvelope />
-                    <p className="intro__email-text">Email</p>
-                </span>
-            </button>
+            <div className="intro__btn-container">
+                <button className="intro__btn" id="intro__btn-email">
+                    <FaEnvelope className="intro__btn-icon"/>
+                    <p className="intro__btn-text">Email</p>
+                </button>
+                
+                <button className="intro__btn" id="intro__btn-linkedin">
+                    <FaLinkedin className="intro__btn-icon"/>
+                    <p className="intro__btn-text">LinkedIn</p>
+                </button>
+            </div>
             
-            <button className="intro__linkedin-btn">
-                <span className="intro__linkedin-span">
-                    <FaLinkedin />
-                    <p className="intro__linkedin-text">LinkedIn</p>
-                </span>
-            </button>
         </div>
     )   
 }

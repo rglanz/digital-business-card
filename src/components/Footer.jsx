@@ -4,10 +4,10 @@ import {FaTwitterSquare, FaFacebookSquare, FaInstagramSquare, FaGithubSquare} fr
 function Footer() {
     return(
         <div className="footer">
-            <a href="" className="footer__link"><FaTwitterSquare/></a>
-            <a href="" className="footer__link"><FaFacebookSquare/></a>
-            <a href="" className="footer__link"><FaInstagramSquare/></a>
-            <a href="" className="footer__link"><FaGithubSquare/></a>
+            <a href="#" className="footer__link"><FaTwitterSquare className="footer__icon" /></a>
+            <a href="#" className="footer__link"><FaFacebookSquare className="footer__icon" /></a>
+            <a href="#" className="footer__link"><FaInstagramSquare className="footer__icon" /></a>
+            <a href="#" className="footer__link"><FaGithubSquare className="footer__icon" /></a>
         </div>
     )   
 }

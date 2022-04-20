@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-light: #F5F5F5;
+    --color-gray: #D5D4D8;
+    --color-gray-dark: #918E9B;
+    --color-accent: #297FE5;
+    --color-background: #23252C;
+
+    --color-font-primary: #2B283A;
+    --color-font-secondary: #4A4E74;
+    --color-font-accent: #F47D27;
+
+    --font-family: Inter;
+    --font-weight: 400;
+    --font-weight-bold: 700;
+}
+
+body {
+    background: var(--color-background);
+
+    font-family: var(--font-family), sans-serif;
+    font-weight: var(--font-weight);
+    color: var(--color-font-primary);
+}
+
+/* Intro Section */
+.intro {
+    width: 317px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-light);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.intro__img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.intro__name {
+    width: 180px;
+    height: 26px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-size: 25px;
+    font-weight: var(--font-weight);
+    line-height: 30px;
+    text-align: center;
+    color: var(--color-font-primary);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.intro__title {
+    width: 180px;
+    height: 25px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 13px;
+    font-weight: var(--font-weight-bold);
+    line-height: 15px;
+    text-align: center;
+
+    color: var(--color-font-accent);
+}
+
+.intro__website {
+    width: 228px;
+    height: 16px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: var(--font-weight-bold);
+    font-size: 10px;
+    line-height: 150%;
+    text-align: center;
+
+    color: var(--color-font-secondary);
+    text-decoration: none;
+}
+
+.intro__btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px;
+}
+
+.intro__btn {
+    width: 115px;
+    height: 34px;
+    margin: 8px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.intro__btn-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: auto;
+    margin-right: 8px;
+}
+
+.intro__btn-text {
+    margin-left: 0;
+    margin-right: auto;
+
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: var(--font-weight-bold);
+}
+
+#intro__btn-email {
+    box-sizing: border-box;
+    border: 1px solid #D1D5DB;
+    background: #fff;
+}
+
+#intro__btn-linkedin {
+    border-style: none;
+    background: var(--color-accent);
+    color: #fff;
+}
+
+/* About */
+.about {
+    width: 317px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-light);
+}
+
+.about__title {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 37px;
+    width: 243px;
+    height: 21px;
+
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.about__text {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 37px;
+    width: 247px;
+    height: 61px;
+
+    font-weight: var(--font-weight-bold);
+    font-size: 10px;
+    line-height: 150%;
+
+    color: var(--color-font-secondary);
+}
+
+/* Interests */
+.interests {
+    width: 317px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-light);
+}
+
+.interests__title {
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: 37px;
+    width: 243px;
+    height: 21px;
+
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.interests__text {
+    margin-top: 5px;
+    margin-bottom: 31px;
+    margin-left: 37px;
+    width: 247px;
+    height: 61px;
+
+    font-weight: var(--font-weight-bold);
+    font-size: 10px;
+    line-height: 150%;
+
+    color: var(--color-font-secondary);
+}
+
+/* Footer */
+.footer {
+    width: 317px;
+    height: 64px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--color-gray);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer__link + .footer__link {
+    padding-left: 24px;
+}
+
+.footer__icon {
+    width: 25px;
+    height:25px;
+    color: var(--color-gray-dark)
+}
