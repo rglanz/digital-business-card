@@ -1,6 +1,6 @@
 ## Ryan Glanz's Digital Business Card
 
-#### Built by hand in React/JSX.
+A mobile-friendly digital buisness card, built by hand in React/JSX.
 
 <img src="./assets/thumbnail.png" alt="business_card_thumbnail]" width="400px"/>
 
